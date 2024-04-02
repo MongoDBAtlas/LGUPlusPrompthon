@@ -25,6 +25,6 @@
 - **Handson** [GitHub][2]
   - Search
 
-[0]: https://github.com/MongoDBAtlas/LGUPrompthon/tree/main/01.Provision
-[1]: https://github.com/MongoDBAtlas/LGUPrompthon/tree/main/02.CRUD%20and%20MQL
-[2]: https://github.com/MongoDBAtlas/LGUPrompthon/tree/main/03.vector-search
+[0]: https://github.com/MongoDBAtlas/LGUPlusPrompthon/tree/main/01.Provision
+[1]: https://github.com/MongoDBAtlas/LGUPlusPrompthon/tree/main/02.CRUD%20and%20MQL
+[2]: https://github.com/MongoDBAtlas/LGUPlusPrompthon/tree/main/03.vector-search
