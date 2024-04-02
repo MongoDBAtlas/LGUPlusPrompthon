@@ -15,12 +15,12 @@
 
 sample_mflix.embedded_movies 컬렉션의 데이터로 plot_embedding 필드에 "ada-002-text" 서비스에 의해 plot 정보가 vector로 계산되어져 저장된 것입니다.    
 
-<img src="/02.atlas-search/image/images30.png" width="50%" height="50%">
+<img src="/03.vector-search/image/images30.png" width="50%" height="50%">
 
 해당 필드에 인덱스를 생성 하여 줍니다. Vector 의 차원은 1536이며 비교 연산은 euclidean을 사용 합니다.  
 Atlas console에서 인덱스를 생성 하여 줍니다. 인덱스는 UI를 통해서 생성이 지원되지 않음으로 JSON을 이용한 생성을 선택 합니다.   
 
-<img src="/02.atlas-search/image/images40.png" width="50%" height="50%">
+<img src="/03.vector-search/image/images40.png" width="50%" height="50%">
 
 
 인덱스 이름을 vector_index로 지정 하고 plot_embedding 필드에 인덱스를 생성하며 type은 knnVector로 지정하고 차원 정보는 1536, 유사도는 euclidean을 입력 하여 줍니다. 장르 정보를 지정하여 검색 하기 위해 genres도 추가 하여 줍니다.     
@@ -44,13 +44,13 @@ Atlas console에서 인덱스를 생성 하여 줍니다. 인덱스는 UI를 통
 
 인덱스 생성 까지는 1-2분 정도가 소요되며 생성 완료는 search index 페이지에서 확인 가능 합니다.    
 
-<img src="/02.atlas-search/image/images41.png" width="70%" height="70%">
+<img src="/03.vector-search/image/images41.png" width="70%" height="70%">
 
 
 검색을 위해서 openAI (https://openai.com/ )에 무료 회원 가입 후 회원 정보 페이지에서 API 사용을 위한 API key를 생성 합니다.   
 
 
-<img src="/02.atlas-search/image/images32.png" width="70%" height="70%">
+<img src="/03.vector-search/image/images32.png" width="70%" height="70%">
 
 생성된 API 키는 다시 조회가 불가능 함으로 메모 하여 둡니다. 
 
